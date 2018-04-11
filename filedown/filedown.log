@@ -1,0 +1,417 @@
+2018-04-11 13:53:20,408 - filedown - INFO - Test.post: send data from queue
+2018-04-11 13:53:20,408 - filedown - INFO - 0
+2018-04-11 13:53:20,408 - filedown - INFO - <tornado.concurrent.Future object at 0x0000011C94EF75F8>
+2018-04-11 13:53:20,408 - filedown - INFO - 0
+2018-04-11 13:53:25,611 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 13:53:25,611 - filedown - INFO - Doing work on 1, time 1523426005.6114717
+2018-04-11 13:53:27,736 - filedown - INFO - Test.post: send data from queue
+2018-04-11 13:53:27,736 - filedown - INFO - 0
+2018-04-11 13:53:27,736 - filedown - INFO - <tornado.concurrent.Future object at 0x0000011C94EF79E8>
+2018-04-11 13:53:27,736 - filedown - INFO - 0
+2018-04-11 13:56:29,883 - filedown - INFO - Test.post: send data from queue
+2018-04-11 13:56:29,883 - filedown - INFO - 0
+2018-04-11 13:56:37,852 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 13:56:37,852 - filedown - INFO - Doing work on 1, time 1523426197.8524582
+2018-04-11 13:56:40,555 - filedown - INFO - Test.post: send data from queue
+2018-04-11 13:56:40,555 - filedown - INFO - 1
+2018-04-11 13:56:40,555 - filedown - INFO - Doing work on 1, time 1523426197.8524582
+2018-04-11 13:56:40,555 - filedown - INFO - 0
+2018-04-11 14:03:30,761 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:03:30,761 - filedown - INFO - empty queue
+2018-04-11 14:03:36,558 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:03:38,855 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:03:38,855 - filedown - INFO - Doing work on 1, time 1523426616.589387
+2018-04-11 14:04:36,091 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,091 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,091 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,107 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,107 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,122 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,122 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,138 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,138 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,153 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,153 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,169 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,169 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,169 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,185 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,185 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,200 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,200 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,216 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,216 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,232 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,232 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,247 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,247 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,263 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,263 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,263 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,278 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,294 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,294 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,294 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,310 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,325 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,325 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,341 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,341 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,341 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,357 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,357 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,372 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,372 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,388 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,388 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,403 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,403 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,419 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,419 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,435 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,435 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,450 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,450 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,466 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,466 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,482 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,482 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,497 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,497 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:36,513 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:04:42,966 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:42,966 - filedown - INFO - Doing work on 2, time 1523426676.091462
+2018-04-11 14:04:44,716 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:44,716 - filedown - INFO - Doing work on 2, time 1523426676.091462
+2018-04-11 14:04:46,779 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:46,779 - filedown - INFO - Doing work on 2, time 1523426676.1070864
+2018-04-11 14:04:48,138 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:48,138 - filedown - INFO - Doing work on 2, time 1523426676.1070864
+2018-04-11 14:04:48,591 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:48,591 - filedown - INFO - Doing work on 2, time 1523426676.1070864
+2018-04-11 14:04:48,951 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:48,951 - filedown - INFO - Doing work on 2, time 1523426676.1227117
+2018-04-11 14:04:49,310 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:49,310 - filedown - INFO - Doing work on 2, time 1523426676.1227117
+2018-04-11 14:04:49,701 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:49,701 - filedown - INFO - Doing work on 2, time 1523426676.1383364
+2018-04-11 14:04:50,060 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:50,060 - filedown - INFO - Doing work on 2, time 1523426676.1383364
+2018-04-11 14:04:50,435 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:50,435 - filedown - INFO - Doing work on 2, time 1523426676.1539626
+2018-04-11 14:04:50,810 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:50,810 - filedown - INFO - Doing work on 2, time 1523426676.1539626
+2018-04-11 14:04:51,170 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:51,170 - filedown - INFO - Doing work on 2, time 1523426676.1695886
+2018-04-11 14:04:51,529 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:51,529 - filedown - INFO - Doing work on 2, time 1523426676.1695886
+2018-04-11 14:04:51,904 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:51,904 - filedown - INFO - Doing work on 2, time 1523426676.1852138
+2018-04-11 14:04:52,248 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:52,248 - filedown - INFO - Doing work on 2, time 1523426676.1852138
+2018-04-11 14:04:52,623 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:52,623 - filedown - INFO - Doing work on 2, time 1523426676.1852138
+2018-04-11 14:04:52,982 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:52,982 - filedown - INFO - Doing work on 2, time 1523426676.2008388
+2018-04-11 14:04:53,310 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:53,310 - filedown - INFO - Doing work on 2, time 1523426676.2008388
+2018-04-11 14:04:53,670 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:53,670 - filedown - INFO - Doing work on 2, time 1523426676.2164643
+2018-04-11 14:04:53,982 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:53,982 - filedown - INFO - Doing work on 2, time 1523426676.2164643
+2018-04-11 14:04:54,310 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:54,310 - filedown - INFO - Doing work on 2, time 1523426676.2320898
+2018-04-11 14:04:54,623 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:54,623 - filedown - INFO - Doing work on 2, time 1523426676.2320898
+2018-04-11 14:04:54,935 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:54,935 - filedown - INFO - Doing work on 2, time 1523426676.2477164
+2018-04-11 14:04:55,232 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:55,232 - filedown - INFO - Doing work on 2, time 1523426676.2477164
+2018-04-11 14:04:55,529 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:55,529 - filedown - INFO - Doing work on 2, time 1523426676.263342
+2018-04-11 14:04:55,842 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:55,842 - filedown - INFO - Doing work on 2, time 1523426676.263342
+2018-04-11 14:04:56,123 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:56,139 - filedown - INFO - Doing work on 2, time 1523426676.2789679
+2018-04-11 14:04:56,467 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:56,467 - filedown - INFO - Doing work on 3, time 1523426676.2789679
+2018-04-11 14:04:56,779 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:56,779 - filedown - INFO - Doing work on 3, time 1523426676.294592
+2018-04-11 14:04:57,060 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:57,060 - filedown - INFO - Doing work on 3, time 1523426676.294592
+2018-04-11 14:04:57,342 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:57,342 - filedown - INFO - Doing work on 3, time 1523426676.310218
+2018-04-11 14:04:57,685 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:57,685 - filedown - INFO - Doing work on 3, time 1523426676.310218
+2018-04-11 14:04:57,982 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:57,982 - filedown - INFO - Doing work on 3, time 1523426676.325843
+2018-04-11 14:04:58,264 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:58,264 - filedown - INFO - Doing work on 3, time 1523426676.325843
+2018-04-11 14:04:58,717 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:58,717 - filedown - INFO - Doing work on 3, time 1523426676.3414683
+2018-04-11 14:04:58,982 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:58,982 - filedown - INFO - Doing work on 3, time 1523426676.3414683
+2018-04-11 14:04:59,295 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:59,295 - filedown - INFO - Doing work on 3, time 1523426676.357096
+2018-04-11 14:04:59,592 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:59,592 - filedown - INFO - Doing work on 3, time 1523426676.357096
+2018-04-11 14:04:59,936 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:04:59,936 - filedown - INFO - Doing work on 3, time 1523426676.357096
+2018-04-11 14:05:00,357 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:00,357 - filedown - INFO - Doing work on 3, time 1523426676.3727202
+2018-04-11 14:05:00,701 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:00,701 - filedown - INFO - Doing work on 3, time 1523426676.3727202
+2018-04-11 14:05:01,076 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:01,076 - filedown - INFO - Doing work on 3, time 1523426676.3883452
+2018-04-11 14:05:01,436 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:01,436 - filedown - INFO - Doing work on 3, time 1523426676.3883452
+2018-04-11 14:05:01,764 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:01,764 - filedown - INFO - Doing work on 3, time 1523426676.4039707
+2018-04-11 14:05:02,061 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:02,061 - filedown - INFO - Doing work on 3, time 1523426676.4039707
+2018-04-11 14:05:02,389 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:02,389 - filedown - INFO - Doing work on 3, time 1523426676.4195962
+2018-04-11 14:05:02,764 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:02,764 - filedown - INFO - Doing work on 3, time 1523426676.4195962
+2018-04-11 14:05:03,123 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:03,123 - filedown - INFO - Doing work on 3, time 1523426676.4352226
+2018-04-11 14:05:03,467 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:03,467 - filedown - INFO - Doing work on 3, time 1523426676.4352226
+2018-04-11 14:05:03,795 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:03,795 - filedown - INFO - Doing work on 3, time 1523426676.450849
+2018-04-11 14:05:04,123 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:04,123 - filedown - INFO - Doing work on 3, time 1523426676.450849
+2018-04-11 14:05:04,467 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:04,467 - filedown - INFO - Doing work on 3, time 1523426676.4664726
+2018-04-11 14:05:04,889 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:04,889 - filedown - INFO - Doing work on 3, time 1523426676.4664726
+2018-04-11 14:05:05,280 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:05,280 - filedown - INFO - Doing work on 4, time 1523426676.4820976
+2018-04-11 14:05:05,545 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:05,545 - filedown - INFO - Doing work on 4, time 1523426676.4820976
+2018-04-11 14:05:06,155 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:06,170 - filedown - INFO - Doing work on 4, time 1523426676.497725
+2018-04-11 14:05:06,561 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:06,561 - filedown - INFO - Doing work on 4, time 1523426676.497725
+2018-04-11 14:05:06,873 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:06,873 - filedown - INFO - Doing work on 4, time 1523426676.513349
+2018-04-11 14:05:07,233 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:07,233 - filedown - INFO - empty queue
+2018-04-11 14:05:08,467 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:05:08,826 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:05:09,264 - filedown - INFO - Test.post: get data and put into queue
+2018-04-11 14:05:12,170 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:12,186 - filedown - INFO - Doing work on 1, time 1523426708.467628
+2018-04-11 14:05:12,545 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:12,545 - filedown - INFO - Doing work on 1, time 1523426708.8426032
+2018-04-11 14:05:13,452 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:13,452 - filedown - INFO - Doing work on 1, time 1523426709.2645292
+2018-04-11 14:05:13,967 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:13,967 - filedown - INFO - empty queue
+2018-04-11 14:05:14,905 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:14,905 - filedown - INFO - empty queue
+2018-04-11 14:05:15,327 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:15,327 - filedown - INFO - empty queue
+2018-04-11 14:05:15,717 - filedown - INFO - Test.post: send data from queue
+2018-04-11 14:05:15,717 - filedown - INFO - empty queue
+2018-04-11 14:09:36,744 - filedown - INFO - Test.post: send data from output queue
+2018-04-11 14:09:36,744 - filedown - INFO - empty output queue
+2018-04-11 14:09:45,557 - filedown - INFO - Test.post: get data and put into input queue
+2018-04-11 14:09:48,213 - filedown - INFO - Test.post: send data from output queue
+2018-04-11 14:09:48,213 - filedown - INFO - empty output queue
+2018-04-11 14:12:48,514 - filedown - INFO - i am sleeping
+2018-04-11 14:12:58,546 - filedown - INFO - wake up
+2018-04-11 14:13:04,390 - filedown - INFO - Test.post: send data from output queue
+2018-04-11 14:13:04,390 - filedown - INFO - empty output queue
+2018-04-11 14:13:06,280 - filedown - INFO - Test.post: get data and put into input queue
+2018-04-11 14:13:09,609 - filedown - INFO - Test.post: send data from output queue
+2018-04-11 14:13:09,609 - filedown - INFO - Doing work on 1, time 1523427186.2809582
+2018-04-11 14:20:44,397 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-11 14:20:54,413 - filedown - INFO - [biz] Consumer: wake up
+2018-04-11 14:21:01,757 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:21:01,757 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-11 14:21:03,601 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:21:05,413 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:21:05,413 - filedown - INFO - Doing work on 1, time 1523427663.6013093
+2018-04-11 14:22:40,714 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-11 14:22:50,746 - filedown - INFO - [biz] Consumer: wake up
+2018-04-11 14:23:08,918 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:08,918 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-11 14:23:11,856 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,856 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,856 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,871 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,871 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,887 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,887 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,903 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,903 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,918 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,918 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,934 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,934 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,934 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,950 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,950 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,965 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,965 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,965 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,981 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,981 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,996 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:11,996 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,012 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,012 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,012 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,028 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,028 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,043 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,043 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,059 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,059 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,075 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,075 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,090 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,090 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,090 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,106 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,106 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,121 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,121 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,137 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,137 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,137 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,153 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,153 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,168 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,168 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,184 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,184 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,200 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,200 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,215 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,215 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,215 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,231 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,231 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:12,246 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-11 14:23:19,840 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:19,840 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8563437
+2018-04-11 14:23:22,294 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:22,294 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8563437
+2018-04-11 14:23:23,278 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:23,278 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8719726
+2018-04-11 14:23:23,919 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:23,919 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8719726
+2018-04-11 14:23:24,591 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:24,591 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8719726
+2018-04-11 14:23:25,403 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:25,403 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8875945
+2018-04-11 14:23:26,185 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:26,185 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.8875945
+2018-04-11 14:23:27,513 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:27,513 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9032187
+2018-04-11 14:23:27,856 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:27,856 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9032187
+2018-04-11 14:23:28,106 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:28,106 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.918846
+2018-04-11 14:23:28,372 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:28,372 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.918846
+2018-04-11 14:23:28,622 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:28,622 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9344695
+2018-04-11 14:23:28,872 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:28,872 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9344695
+2018-04-11 14:23:29,153 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:29,169 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9344695
+2018-04-11 14:23:29,450 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:29,450 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9500961
+2018-04-11 14:23:29,747 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:29,747 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9500961
+2018-04-11 14:23:30,169 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:30,169 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9657218
+2018-04-11 14:23:30,513 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:30,513 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9657218
+2018-04-11 14:23:30,841 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:30,841 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9813468
+2018-04-11 14:23:31,185 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:31,185 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9813468
+2018-04-11 14:23:31,482 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:31,482 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9813468
+2018-04-11 14:23:31,778 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:31,794 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9969728
+2018-04-11 14:23:32,060 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:32,060 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427791.9969728
+2018-04-11 14:23:32,341 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:32,341 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427792.0125983
+2018-04-11 14:23:32,653 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:32,653 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427792.0125983
+2018-04-11 14:23:32,950 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:32,950 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427792.0125983
+2018-04-11 14:23:33,247 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:33,247 - filedown - INFO - [handler] Test2.post: Doing work on 2, time 1523427792.0282245
+2018-04-11 14:23:33,528 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:33,528 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.0282245
+2018-04-11 14:23:33,825 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:33,825 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.04385
+2018-04-11 14:23:34,200 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:34,200 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.04385
+2018-04-11 14:23:34,482 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:34,497 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.059475
+2018-04-11 14:23:34,825 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:34,825 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.059475
+2018-04-11 14:23:35,200 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:35,200 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.0750997
+2018-04-11 14:23:35,482 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:35,482 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.0750997
+2018-04-11 14:23:35,779 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:35,779 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.0907261
+2018-04-11 14:23:36,154 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:36,154 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.0907261
+2018-04-11 14:23:36,466 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:36,466 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1063535
+2018-04-11 14:23:36,794 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:36,794 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1063535
+2018-04-11 14:23:37,294 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:37,294 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1063535
+2018-04-11 14:23:37,654 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:37,654 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1219795
+2018-04-11 14:23:38,076 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:38,076 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1219795
+2018-04-11 14:23:41,091 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:41,091 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1376028
+2018-04-11 14:23:41,966 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:41,966 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1376028
+2018-04-11 14:23:42,373 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:42,373 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1376028
+2018-04-11 14:23:42,701 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:42,701 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1532288
+2018-04-11 14:23:44,029 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:44,029 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1532288
+2018-04-11 14:23:44,701 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:44,701 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1688538
+2018-04-11 14:23:45,232 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:45,232 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1688538
+2018-04-11 14:23:45,732 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:45,732 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1844797
+2018-04-11 14:23:46,248 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:46,248 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.1844797
+2018-04-11 14:23:46,779 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:46,779 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.200104
+2018-04-11 14:23:47,295 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:47,295 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.200104
+2018-04-11 14:23:47,654 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:47,670 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523427792.215731
+2018-04-11 14:23:47,935 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:47,935 - filedown - INFO - [handler] Test2.post: Doing work on 4, time 1523427792.215731
+2018-04-11 14:23:48,154 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:48,154 - filedown - INFO - [handler] Test2.post: Doing work on 4, time 1523427792.2313552
+2018-04-11 14:23:48,701 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:48,701 - filedown - INFO - [handler] Test2.post: Doing work on 4, time 1523427792.2313552
+2018-04-11 14:23:49,045 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:49,045 - filedown - INFO - [handler] Test2.post: Doing work on 4, time 1523427792.2313552
+2018-04-11 14:23:49,373 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:49,373 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-11 14:23:50,826 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:50,826 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-11 14:23:51,904 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-11 14:23:51,904 - filedown - INFO - [handler] Test2.post: empty output queue

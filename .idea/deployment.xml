@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sftp://tmxmall@192.168.0.120:22/home/tmxmall/miniconda3/envs/py36/bin/python" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="sftp://tmxmall@192.168.0.120:22/home/tmxmall/miniconda3/envs/py36/bin/python">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/tmxmall/PycharmProjects/tornado-learning" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tmxmall@192.168.0.120:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
