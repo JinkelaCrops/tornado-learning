@@ -32,5 +32,5 @@ if __name__ == '__main__':
     server.listen(options.port)
 
     # ioloop = IOLoop.current()
-    IOLoop.current().spawn_callback(handler.Consumer.consume)
+    IOLoop.current().spawn_callback(biz.Consumer.consume)
     IOLoop.current().start()

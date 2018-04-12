@@ -1,5 +1,6 @@
 import json
 import queue
+import pickle
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -14,14 +15,25 @@ class Consumer(object):
     q = Queue(maxsize=10000)
     p = queue.Queue(maxsize=10000)
 
+    @staticmethod
+    def df(x):
+        return x+1
+
+    @classmethod
+    @gen.coroutine
+    def abc(cls):
+        item = yield cls.q.get()
+        item += 1
+        return cls.df(item)
+
     @classmethod
     @gen.coroutine
     def consume(cls):
         log.info("[biz] Consumer: i am sleeping")
-        time.sleep(10)
+        time.sleep(3)
         log.info("[biz] Consumer: wake up")
         while True:
-            item = yield cls.q.get()
+            item = yield cls.abc()
             string = 'Doing work on %s, time %s' % (item, time.time())
             cls.p.put(string)
 

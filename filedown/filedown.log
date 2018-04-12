@@ -415,3 +415,35 @@
 2018-04-11 14:23:50,826 - filedown - INFO - [handler] Test2.post: empty output queue
 2018-04-11 14:23:51,904 - filedown - INFO - [handler] Test2.post: send data from output queue
 2018-04-11 14:23:51,904 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-12 23:06:29,861 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:06:39,862 - filedown - INFO - [biz] Consumer: wake up
+2018-04-12 23:07:48,946 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-12 23:07:56,353 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-12 23:07:56,353 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-12 23:09:01,871 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:09:04,874 - filedown - INFO - [biz] Consumer: wake up
+2018-04-12 23:09:07,459 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-12 23:09:09,643 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-12 23:09:09,643 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-12 23:10:39,745 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:10:42,748 - filedown - INFO - [biz] Consumer: wake up
+2018-04-12 23:10:45,389 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-12 23:11:06,989 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:11:09,992 - filedown - INFO - [biz] Consumer: wake up
+2018-04-12 23:11:10,566 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-12 23:11:12,869 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-12 23:11:12,870 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-12 23:11:45,413 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:11:48,415 - filedown - INFO - [biz] Consumer: wake up
+2018-04-12 23:11:49,558 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-12 23:11:49,559 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-12 23:11:52,662 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-12 23:11:53,806 - filedown - INFO - [handler] Test1.post: get data and put into input queue
+2018-04-12 23:11:55,246 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-12 23:11:55,246 - filedown - INFO - [handler] Test2.post: Doing work on 3, time 1523545912.6633823
+2018-04-12 23:11:59,358 - filedown - INFO - [handler] Test2.post: send data from output queue
+2018-04-12 23:11:59,359 - filedown - INFO - [handler] Test2.post: empty output queue
+2018-04-12 23:18:04,053 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:18:07,055 - filedown - INFO - [biz] Consumer: wake up
+2018-04-12 23:18:46,390 - filedown - INFO - [biz] Consumer: i am sleeping
+2018-04-12 23:18:49,393 - filedown - INFO - [biz] Consumer: wake up
