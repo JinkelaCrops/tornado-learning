@@ -100,13 +100,7 @@ def score_file(filename):
     if has_inputs:
         inputs_ph = tf.placeholder(dtype=tf.int32)  # Just length dimension.
         batch_inputs = tf.reshape(inputs_ph, [1, -1, 1, 1])  # Make it 4D.
-    targets_ph = tf.placeholder(dtype=tf.int32)  # Just length dimension.
-    batch_targets = tf.reshape(targets_ph, [1, -1, 1, 1])  # Make it 4D.
-    features = {
-        "inputs": batch_inputs,
-        # "targets": batch_targets,
-    } if has_inputs else {"targets": batch_targets}
-
+    features = {"inputs": batch_inputs}
     # Prepare the model and the graph when model runs on features.
     model = registry.model(FLAGS.model)(hparams, tf.estimator.ModeKeys.PREDICT)
     model_spec = model.estimator_spec_predict(features)
