@@ -8,6 +8,7 @@ file-down的目标文件夹可选
 
 import requests
 import json
+from concurrent.futures import ThreadPoolExecutor
 
 
 class RemoteIO(object):
@@ -48,4 +49,30 @@ class RemoteIO(object):
 
     def test2(self):
         res = requests.post(url="http://%s:8000/test2" % self.host)
+        return res.json()["result"]
+
+    def trans_send(self, args):
+        payload = {
+            "args": args
+        }
+        requests.post(url="http://%s:8000/trans_send" % self.host, data=payload)
+
+    def trans_get(self):
+        res = requests.post(url="http://%s:8000/trans_get" % self.host)
+        return res.json()["result"]
+
+    def trans2(self, args):
+        payload = {
+            "args": json.dumps(args)
+        }
+        executer = ThreadPoolExecutor(max_workers=2)
+        a = executer.submit(requests.post, url="http://%s:8000/trans" % self.host, data=payload)
+        b = executer.submit(requests.post, url="http://%s:8001/trans" % self.host, data=payload)
+        return 1
+
+    def trans(self, args):
+        payload = {
+            "args": json.dumps(args)
+        }
+        res = requests.post(url="http://%s:8000/trans" % self.host, data=payload)
         return res.json()["result"]

@@ -3,13 +3,16 @@
 # __time__   : '2018/1/4 11:08'
 
 import json
+from json import JSONDecodeError
 
 # If this runs wrong, don't ask me, I don't know why;
 # If this runs right, thank god, and I don't know why.
 # Maybe the answer, my friend, is blowing in the wind.
 import tornado.web
+from tornado import gen
 
 from app.biz import Consumer
+from app.biz import decoder
 from app.biz import Sync_io
 from app.biz import understand_data
 from app.loggerInst import log
@@ -75,7 +78,7 @@ class SendOutHandler(tornado.web.RequestHandler):
             log.info("[handler] SendOutHandler.post: send data from %s [%s] -> %s" % (path, read_start, read_nrows))
         else:
             log.info("[handler] SendOutHandler.post: send data from %s [%s : %s]" % (
-            path, read_start, read_start + read_nrows))
+                path, read_start, read_start + read_nrows))
 
         # with open(path, "r", encoding="utf8") as f:
         #     tmp = json.dumps({"data": line_read(f, read_start, read_nrows)})
@@ -128,11 +131,43 @@ class Test2(tornado.web.RequestHandler):
         else:
             log.info("[handler] Test2.post: " + data)
 
-    # @gen.coroutine
-    # def sport():
-    #     # Start consumer without waiting (since it never finishes).
-    #
-    #     # yield producer()  # Wait for producer to put all tasks.
-    #     log.info("abc")
-    #     yield q.join()  # Wait for consumer to finish all tasks.
-    #     log.info('Done')
+
+class TranslateSend(tornado.web.RequestHandler):
+
+    def post(self):
+        data = self.get_argument("args")
+        log.info("[handler] TranslateSend.post: get sentence and put into input queue")
+        single_decode.q.put(data)
+
+
+class TranslateGet(tornado.web.RequestHandler):
+
+    def post(self):
+        log.info("[handler] TranslateSend.post: send translated sentence from output queue")
+        data = None if single_decode.p.empty() else single_decode.p.get()
+        self.write(json.dumps({"result": data}))
+        if single_decode.p.empty():
+            log.info("[handler] TranslateSend.post: empty output queue")
+        else:
+            log.info("[handler] TranslateSend.post: " + data)
+
+
+class Translate(tornado.web.RequestHandler):
+    @gen.coroutine
+    def post(self):
+        data = self.get_argument("args")
+        datas = json.loads(data)
+        if not isinstance(datas, list) or not all(map(lambda x: isinstance(x, str), datas)):
+            log.warn("[handler] Translate.post: invalid input")
+            self.write(json.dumps({"result": "invalid input"}))
+        else:
+            log.info("[handler] Translate.post: get sentence and put into input queue")
+            # log.info("[handler] Translate.post: " + data)
+            decoder.q.put(datas)
+            try:
+                result = yield decoder.p.get()
+                self.write(json.dumps({"result": result}))
+                log.info("[handler] Translate.post: send translated sentence")
+            except Exception as e:
+                log.warn("[handler] Translate.post: translate failed %s %s" % (e.__class__, e.__context__))
+                self.write(json.dumps({"result": "translate failed"}))

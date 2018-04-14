@@ -10,6 +10,62 @@ from tornado.queues import Queue
 
 from app.loggerInst import log
 
+from app.my_t2t_decoder_active import SessFieldPredict
+from app.my_t2t_decoder_active import text_encoder
+from app.my_t2t_decoder_active import tf
+
+import config
+
+
+class Decode(object):
+    def __init__(self, sess_field):
+        self.q = Queue(maxsize=1000)
+        self.p = Queue(maxsize=1000)
+        self.sess_field = sess_field
+
+    @staticmethod
+    def batch_pad(nd):
+        max_length = max(map(len, nd))
+        pad_nd = [i + [text_encoder.PAD_ID] * (max_length - len(i)) for i in nd]
+        return pad_nd
+
+    @gen.coroutine
+    def decode(self):
+        log.info("[biz] Decode: model loading ... ")
+        saver = tf.train.Saver()
+
+        with tf.Session(config=self.sess_field.sess_config) as sess:
+            # Load weights from checkpoint.
+            log.info("[biz] Decode: restoring parameters")
+            saver.restore(sess, self.sess_field.ckpt)
+            log.info("[biz] Decode: model already loaded")
+            while True:
+                inputs = yield self.q.get()
+                log.info("[biz] Decode: " + str(inputs))
+                st_time = time.time()
+                inputs_numpy = [self.sess_field.encoders["inputs"].encode(i) + [text_encoder.EOS_ID] for i in inputs]
+                num_decode_batches = (len(inputs_numpy) - 1) // self.sess_field.batch_size + 1
+                results = []
+                for i in range(num_decode_batches):
+                    input_numpy = inputs_numpy[i * self.sess_field.batch_size:(i + 1) * self.sess_field.batch_size]
+                    inputs_numpy_batch = input_numpy + [[text_encoder.EOS_ID]] * (
+                            self.sess_field.batch_size - len(input_numpy))
+                    inputs_numpy_batch = self.batch_pad(inputs_numpy_batch)  # pad using 0
+                    # log.info("[biz] Decode: " + str(inputs_numpy_batch))
+                    feed = {self.sess_field.inputs_ph: inputs_numpy_batch}
+                    result = sess.run(self.sess_field.prediction, feed)
+                    decoded_outputs = [self.sess_field.encoders["targets"].decode(i).strip("<pad>").strip("<EOS>") for i
+                                       in result["outputs"][:len(input_numpy)]]
+                    results += decoded_outputs
+                self.p.put(results)
+                log.info("[biz] Decode: source: " + str(inputs))
+                log.info("[biz] Decode: target: " + str(results))
+                log.info("[biz] Decode: using %s s" % (time.time() - st_time))
+
+
+sess_field = SessFieldPredict(config.BATCH_SIZE)
+decoder = Decode(sess_field)
+
 
 class Consumer(object):
     q = Queue(maxsize=10000)
@@ -17,7 +73,7 @@ class Consumer(object):
 
     @staticmethod
     def df(x):
-        return x+1
+        return x + 1
 
     @classmethod
     @gen.coroutine
@@ -117,7 +173,7 @@ class LineRead(object):
 
     def read(self, here, line_num):
         """
-        f = open("../filedown.log", "r", encoding="utf8")
+        f = open("../translate.log", "r", encoding="utf8")
         line_read = LineRead(f)
         data, pos = line_read.read(500, 0)
         data, pos = line_read.read(500, pos)

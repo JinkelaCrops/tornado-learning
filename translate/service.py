@@ -19,8 +19,11 @@ define("port", default=8000, help="run on the given port", type=int)
 Handlers = [(r"/wt", handler.WriteDownHandler),
             (r"/sd", handler.SendOutHandler),
             (r"/ex", handler.ExecHandler),
-            (r"/test1", handler.Test1),
-            (r"/test2", handler.Test2),
+            # (r"/test1", handler.Test1),
+            # (r"/test2", handler.Test2),
+            # (r"/trans_send", handler.TranslateSend),
+            # (r"/trans_get", handler.TranslateGet),
+            (r"/trans", handler.Translate),
             ]
 
 application = Application(
@@ -31,6 +34,6 @@ if __name__ == '__main__':
     server = HTTPServer(application)
     server.listen(options.port)
 
-    # ioloop = IOLoop.current()
-    IOLoop.current().spawn_callback(biz.Consumer.consume)
-    IOLoop.current().start()
+    ioloop = IOLoop.current()
+    ioloop.spawn_callback(biz.decoder.decode)
+    ioloop.start()

@@ -6,7 +6,7 @@
 
 # import os
 # os.chdir("PycharmProjects/tornado-learning")
-# from filedown.app.biz import sleeeep
+# from translate.app.biz import sleeeep
 
 # @gen.coroutine
 # def sleeeep(args):
